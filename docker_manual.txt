@@ -1,0 +1,17 @@
+docker images
+ローカルに保存されているDockerイメージの一覧の表示
+
+docker pull 
+指定したリポジトリからDockerイメージをダウンロード
+
+docker rmi
+指定したDockerイメージを削除
+
+docker run
+新しいコンテナを作成し、指定したイメージを使って実行
+
+docker ps
+実行中のコンテナの一覧を表示
+
+docker stop 
+ 指定したコンテナを停止

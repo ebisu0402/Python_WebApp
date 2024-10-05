@@ -32,3 +32,13 @@ class Human(db.Model):
 
     def __repr__(self):
         return f"<Human {self.id}: {self.name}, {self.height}cm, {self.weight}kg>"
+
+
+@app.route("/try_html")
+def try_html():
+    return render_template("try_html.html")
+
+
+@app.route("/show_data", methods=["GET", "POST"])
+def show_data():
+    return request.form
